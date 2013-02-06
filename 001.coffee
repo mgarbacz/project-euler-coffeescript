@@ -8,11 +8,11 @@ solution = ->
   itr = 1000
 
   # Fancy loop from 999 to 0, since we want to check below 1000
-  while (itr--)
-    if (itr % 3 is 0 or itr % 5 is 0)
+  while itr--
+    if itr % 3 is 0 or itr % 5 is 0
       sum += itr
   
   # Returning the sum
   sum
 
-console.log(solution())
+console.log solution()
