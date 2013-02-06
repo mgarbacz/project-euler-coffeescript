@@ -15,6 +15,6 @@ solution = ->
     index++
 
   # The resulting index value is the largest prime factor
-  index
+  return index
 
 console.log solution()

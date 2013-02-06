@@ -21,6 +21,6 @@ solution = ->
     # Note: temporary variable could be used instead
     n1 = n2 - n1
 
-  sum
+  return sum
 
 console.log solution()

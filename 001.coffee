@@ -13,6 +13,6 @@ solution = ->
       sum += itr
   
   # Returning the sum
-  sum
+  return sum
 
 console.log solution()

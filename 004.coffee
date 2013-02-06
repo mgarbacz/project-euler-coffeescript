@@ -27,7 +27,7 @@ isPalindrome = (num) ->
     divider /= 100
 
   # If we have reached this point, we have a palindrome!
-  true
+  return true
 
 solution = ->
   largestPalindrome = 0
@@ -41,6 +41,6 @@ solution = ->
       if isPalindrome(product) and product > largestPalindrome
         largestPalindrome = product
 
-  largestPalindrome
+  return largestPalindrome
 
 console.log solution()
