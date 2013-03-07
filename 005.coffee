@@ -19,9 +19,9 @@ lcm = (a, b) ->
 
 # Solve by finding lcm progressively
 solution = ->
-  result = 1
+  result = 2520
 
-  for i in [2..20]
+  for i in [11..20]
     result = lcm result, i
 
   return result
